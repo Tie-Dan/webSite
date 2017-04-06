@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0; 
+	margin: 0; 
+	font-size: 12px; 
+	font-family: "微软雅黑";
+}
+body,p,ul,ol,dl{
+	padding: 0; 
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal; 
+	font-size: 12px; 
+}
+li{
+	list-style: none;
+}
+a{ 
+	text-decoration: none; 
+	color: #000;
+}
+a img{
+	border: 0;
+}
+em,i{
+	font-style: normal;
+}
+b,strong{ 
+	font-weight: normal;
+}
+img{
+	display: block;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float:right;
+}
+/*清浮动*/
+.clearfix:after{
+	display: block; 
+	content: ''; 
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+input,textarea{
+	outline: none;
+}
+/*解决图片bug img{vertical-align: top;}*/
+table{
+	border-collapse: collapse;
+}
+th,td{
+	border: 1px solid #ccc; padding: 0;
+}
